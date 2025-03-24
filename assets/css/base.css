@@ -1,0 +1,62 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+
+}
+* {
+    box-sizing: inherit;
+}
+html {
+    font-size: 62.5%;
+    line-height: 1.8rem;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grid__full-width {
+    width: 100%;
+}
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.header__selection-bar {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    background-color: var(--white-color);
+    border-top: 1px solid #e5e5e5;
+    overflow-x: auto;
+    white-space: nowrap;
+    margin-bottom: 16px;
+}
+.header__selection-bar {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    background-color: var(--white-color);
+    border-top: 1px solid #e5e5e5;
+    overflow-x: auto;
+    white-space: nowrap;
+    margin-bottom: 16px;
+}
+.header__selection-item {
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 16px;
+    margin-right: 8px;
+    background-color: #f0f0f0;
+    font-size: 1.4rem;
+}
+.header__selection-item:hover {
+    background-color: #e0e0e0;
+}
+.header__selection-item--active {
+    background-color: #030303;
+    color: #fff;
+}
